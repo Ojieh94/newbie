@@ -1,0 +1,150 @@
+
+
+p {
+    margin: 0px;
+  }
+
+.top {
+  width: 1280px;
+  height: 382px;
+  border-bottom: 8px solid #999999;
+}
+
+.header {
+  width: 180px;
+  height: 38px;
+  color: #000;
+  font-family: lato, arial, sans-serif;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38.4px;
+  margin-block-start: 96px;
+  margin-inline-start: 264px;
+}
+
+.focus {
+  height: 60px;
+  width: 415px;
+  margin-inline-start: 264px;
+  font-size: 1.25em;
+  font-family: lato, arial, sans-serif;
+  line-height: 30px;
+  font-weight: 400;
+  margin-block-start: 47px;
+}
+
+span {
+  color: #009966;
+  font-weight: 700;
+}
+
+.description {
+  margin-block-start: 16px;
+  width: 415px;
+  margin-inline-start: 264px;
+  font-size: 1.25em;
+  line-height: 30px;
+  font-weight: 400;
+  font-family: lato, arial, sans-serif;
+  margin-block-end: 64px;
+}
+
+.bottom {
+  background-color: #666666;
+  padding-top: 64px;
+  width: 1280px;
+  height: 450px;
+}
+
+.card {
+  background-color: white;
+  width: 800px;
+  margin-inline-start: 240px;
+  padding-block-start: 8px;
+  border-bottom: 8px solid #999999;
+}
+
+.banner {
+  width: 398px;
+  height: 60px;
+  background-color: #ffbf00;
+  font-family: lato, arial, sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  border-bottom: 8px solid #cc9900;
+  margin-inline-start: -6px;
+  line-height: 28.8px;
+}
+
+.banner p {
+  padding-inline-start: 24px;
+  padding-block: 18px;
+}
+
+.modern {
+  font-family: lato, arial, sans-serif;
+  font-size: 1.24em;
+  font-weight: 400;
+  line-height: 30px;
+  width: 752px;
+}
+
+.modern p {
+  padding-inline-start: 24px;
+  padding-block-start: 16px;
+}
+
+.end {
+  font-family: lato, arial, sans-serif;
+  width: 752px;
+  font-size: 1.24em;
+  font-weight: 400;
+  line-height: 30px;
+}
+.end p {
+  padding-inline-start: 24px;
+  padding-block-start: 16px;
+  padding-block-end: 24px;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1024px) {
+  .header, .focus, .description {
+    margin-inline-start: 24px;
+}
+
+.card, .top {
+  margin-inline: 0px;
+  width: 768px;
+}
+
+.bottom {
+  width: fit-content;
+}
+
+.banner {
+  margin-inline-start: 0px;
+}
+}
+
+@media only screen and (min-width: 0px) and (max-width: 499px) {
+    .header, .focus, .description {
+    margin-inline-start: 24px;
+}
+
+.card, .top, .bottom{
+  margin-inline: 0px;
+  width: 342px;
+}
+
+.focus, .description, .banner, .modern, .end {
+  width: 342px;
+}
+
+.banner {
+  height: 82px;
+  margin-inline-start: 0px;
+}
+}
+
+
